@@ -133,7 +133,7 @@ export default function Wishlist() {
                   <span>Total Items</span>
                   <span>{wishlistItems.length}</span>
                 </div>
-                <div className="flex justify-between font-medium">
+                <div className="flex justify-between font-medium ">
                   <span>Total Value</span>
                   <span>
                    
@@ -148,7 +148,7 @@ export default function Wishlist() {
                   </span>
                 </div>
                 <Link href="/cart">
-                  <Button className="w-full">View Cart</Button>
+                  <Button className="w-full mt-10">View Cart</Button>
                 </Link>
               </div>
             </CardContent>
